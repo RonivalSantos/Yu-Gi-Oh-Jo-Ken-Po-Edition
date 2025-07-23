@@ -169,7 +169,7 @@ async function playAudio(status) {
 
 function init() {
   const bgm = document.getElementById('bgm');
-  // bgm.play();
+  bgm.play();
 
   state.fieldCards.player.style.display = 'none';
   state.fieldCards.computer.style.display = 'none';
